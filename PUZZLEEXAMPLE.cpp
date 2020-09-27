@@ -38,7 +38,7 @@ int main() {
 	auto home = Object::create("low/home.png", scene, 590, 70, false); // 처음화면으로 갈 수 있는 버튼
 	home->setScale(0.5f);
 	int stage = 0; //현재 있는 단계 1은 하, 2는 중, 3은 상
-	int shuffle_num = 200; //섞는 수
+	int shuffle_num = 100; //섞는 수
 	//------------------------------------------------------------------------------------------
 	const int p_num = 9;
 	const int p_width = 3;
